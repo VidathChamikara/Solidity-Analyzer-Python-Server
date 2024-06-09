@@ -102,5 +102,4 @@ def process_solidity_file():
         return jsonify({'error': 'Invalid file format'})
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
